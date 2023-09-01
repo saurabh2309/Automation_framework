@@ -18,8 +18,8 @@ public class dropdownyear {
 		WebElement ele = driver.findElement(By.id("year"));
 		Select s=new Select(ele);
 		List<WebElement>opt = s.getOptions();
-		int count = opt.size();
-		System.out.println(count);
+	//	int count = opt.size();
+		//System.out.println(count);
 		for (WebElement we : opt) {
 			System.out.println(we.getText());
 			
